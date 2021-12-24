@@ -8,7 +8,7 @@ import lombok.Setter;
 @ApiModel(description = "附近的人")
 @Getter
 @Setter
-public class NearMeDinnerVO extends ShortDinnerInfo {
+public class NearMeDinerVO extends ShortDinerInfo {
 
     @ApiModelProperty(value = "距离", example = "98m")
     private String distance;

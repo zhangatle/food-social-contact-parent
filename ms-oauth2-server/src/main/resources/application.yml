@@ -2,9 +2,6 @@ server:
   port: 8082 # 端口
 
 spring:
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
   application:
     name: ms-oauth2-server # 应用名
   # 数据库

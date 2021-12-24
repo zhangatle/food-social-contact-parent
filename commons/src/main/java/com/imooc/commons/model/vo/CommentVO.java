@@ -13,7 +13,7 @@ import java.util.List;
 public class CommentVO {
 
     @ApiModelProperty("食客信息")
-    private ShortDinnerInfo dinerInfo;
+    private ShortDinerInfo dinerInfo;
 
     @ApiModelProperty("评论内容")
     String content;

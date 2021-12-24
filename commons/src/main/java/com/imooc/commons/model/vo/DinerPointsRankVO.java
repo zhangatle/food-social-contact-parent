@@ -8,7 +8,7 @@ import lombok.Setter;
 @ApiModel(description = "用户积分总排行榜")
 @Getter
 @Setter
-public class DinerPointsRankVO extends ShortDinnerInfo {
+public class DinerPointsRankVO extends ShortDinerInfo {
 
     @ApiModelProperty("总积分")
     private int total;

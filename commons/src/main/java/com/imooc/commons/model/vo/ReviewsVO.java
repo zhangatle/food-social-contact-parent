@@ -15,7 +15,7 @@ import java.util.Date;
 public class ReviewsVO extends Reviews {
 
     @ApiModelProperty("食客信息")
-    private ShortDinnerInfo dinerInfo;
+    private ShortDinerInfo dinerInfo;
 
     @ApiModelProperty(value = "创建日期")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm", timezone = "GMT+8")

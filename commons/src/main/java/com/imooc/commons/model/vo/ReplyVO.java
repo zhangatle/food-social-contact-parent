@@ -12,7 +12,7 @@ import java.util.List;
 @ApiModel(description = "回复实体类")
 public class ReplyVO {
     @ApiModelProperty("食客信息")
-    private ShortDinnerInfo dinerInfo;
+    private ShortDinerInfo dinerInfo;
 
     @ApiModelProperty("回复内容")
     String content;

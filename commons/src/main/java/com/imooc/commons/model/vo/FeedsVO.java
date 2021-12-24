@@ -27,7 +27,7 @@ public class FeedsVO implements Serializable {
     @ApiModelProperty("用户ID")
     private Integer fkDinerId;
     @ApiModelProperty("用户信息")
-    private ShortDinnerInfo dinerInfo;
+    private ShortDinerInfo dinerInfo;
     @ApiModelProperty("显示时间")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     public Date createDate;

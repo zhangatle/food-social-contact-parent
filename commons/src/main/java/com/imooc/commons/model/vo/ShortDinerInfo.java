@@ -10,7 +10,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ApiModel(description = "关注食客的信息")
-public class ShortDinnerInfo implements Serializable {
+public class ShortDinerInfo implements Serializable {
 
     @ApiModelProperty("主键")
     private Integer id;
