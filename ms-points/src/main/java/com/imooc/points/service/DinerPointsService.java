@@ -26,11 +26,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author wmy
- * @create 2021-05-15 15:42
- */
-
 @Service
 public class DinerPointsService {
 

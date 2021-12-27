@@ -8,10 +8,6 @@ import com.imooc.commons.model.vo.DinerPointsRankVO;
 
 import java.util.List;
 
-/**
- * @author wmy
- * @create 2021-05-15 15:37
- */
 public interface DinerPointMapper {
 
     // 添加积分

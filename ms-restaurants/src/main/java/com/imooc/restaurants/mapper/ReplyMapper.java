@@ -6,10 +6,6 @@ import com.imooc.commons.model.pojo.Reply;
 
 import java.util.List;
 
-/**
- * @author wmy
- * @create 2021-05-19 21:14
- */
 public interface ReplyMapper {
 
     @Select("select * from t_reviews_reply where fk_reply_id=#{replyId} and fk_review_id=#{reviewId}")

@@ -13,11 +13,6 @@ import javax.annotation.Resource;
 import java.util.LinkedHashMap;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author wmy
- * @create 2021-05-18 11:34
- */
-
 @Service
 @Slf4j
 public class RestaurantService {

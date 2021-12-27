@@ -23,11 +23,6 @@ import javax.annotation.Resource;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * @author wmy
- * @create 2021-05-19 15:59
- */
-
 @Service
 public class ReviewsService {
 

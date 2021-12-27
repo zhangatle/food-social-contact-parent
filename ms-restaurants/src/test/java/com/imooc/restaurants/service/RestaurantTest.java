@@ -17,11 +17,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author wmy
- * @create 2021-05-18 10:23
- */
-
 @Slf4j
 public class RestaurantTest extends RestaurantApplicationTest {
 

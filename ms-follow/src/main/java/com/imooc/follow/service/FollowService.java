@@ -28,11 +28,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-/**
- * @author wmy
- * @create 2021-05-09 11:45
- */
-
 @Service
 public class FollowService {
 
