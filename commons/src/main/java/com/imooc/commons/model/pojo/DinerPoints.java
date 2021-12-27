@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class DinnerPoints extends BaseModel {
+public class DinerPoints extends BaseModel {
     @ApiModelProperty("关联DinerId")
     private Integer fkDinerId;
     @ApiModelProperty("积分")
