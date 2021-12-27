@@ -21,7 +21,7 @@ spring:
 swagger:
   global-operation-parameters:
     - name:
-  base-package: com.imooc
+  base-package: com.imooc.feeds
   title: 慕课美食社交食客API接口文档
 
 # 配置 Eureka Server 注册中心

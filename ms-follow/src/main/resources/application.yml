@@ -1,41 +1,28 @@
 server:
-  port: 8083 # 端口
+  port: 8084 # 端口
 
 spring:
   application:
-    name: ms-diners # 应用名
+    name: ms-follow # 应用名
   # 数据库
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: Itzler.666
+    password: 123456
     url: jdbc:mysql://127.0.0.1:3306/db_imooc?serverTimezone=Asia/Shanghai&character_set_server=utf8mb4&useUnicode=true&useSSL=false
   # Redis
   redis:
     port: 6379
     host: 127.0.0.1
     timeout: 3000ms
+    database: 2
 
-# swagger
+# Swagger
 swagger:
   global-operation-parameters:
     - name:
-  base-package: com.imooc.diners
+  base-package: com.imooc.follow
   title: 慕课美食社交食客API接口文档
-
-# Oauth2 客户端信息
-oauth2:
-  client:
-    client-id: appId
-    secret: 123456
-    grant_type: password
-    scope: api
-
-# oauth2 服务地址
-service:
-  name:
-    ms-oauth-server: http://ms-oauth2-server/
-    ms-points-server: http://ms-points/
 
 # 配置 Eureka Server 注册中心
 eureka:
@@ -45,11 +32,16 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka/
-# Mybatis
+
+service:
+  name:
+    ms-oauth-server: http://ms-oauth2-server/
+    ms-diners-server: http://ms-diners/
+    ms-feeds-server: http://ms-feeds/
+
 mybatis:
   configuration:
     map-underscore-to-camel-case: true # 开启驼峰映射
-
 
 logging:
   pattern:
