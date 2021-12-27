@@ -1,9 +1,9 @@
 server:
-  port: 8086 # 端口
+  port: 8087 # 端口
 
 spring:
   application:
-    name: ms-points # 应用名
+    name: ms-restaurants # 应用名
   # 数据库
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -15,14 +15,13 @@ spring:
     port: 6379
     host: 127.0.0.1
     timeout: 3000ms
-    database: 3
+    database: 5
 # Swagger
 swagger:
   global-operation-parameters:
     - name:
-  base-package: com.imooc.points
+  base-package: com.imooc.restaurant
   title: 慕课美食社交食客API接口文档
-
 
 # 配置 Eureka Server 注册中心
 eureka:
@@ -40,7 +39,7 @@ service:
 
 mybatis:
   configuration:
-    map-underscore-to-camel-case: true
+    map-underscore-to-camel-case: true # 开启驼峰映射
 
 logging:
   pattern:
